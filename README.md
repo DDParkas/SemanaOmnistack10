@@ -3,22 +3,19 @@
 <p align="center">Projeto <strong>DevRadar</strong> desenvolvido durante a Omnistack da Rocketseat</p>
 
 <p align="center">
-  <a aria-label="Versão do Node" href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1">
+  <a aria-label="Versão do Node" href="https://nodejs.org/pt-br/">
     <img src="https://img.shields.io/badge/node.js@lts-12.14.1-informational?logo=Node.JS"></img>
   </a>
-  <a aria-label="Versão do React" href="https://github.com/facebook/react/blob/master/CHANGELOG.md#16120-november-14-2019">
+  <a aria-label="Versão do React" href="https://pt-br.reactjs.org/">
     <img src="https://img.shields.io/badge/react-16.12.0-informational?logo=react"></img>
   </a>
-  <a aria-label="Desafios" href="DESAFIOS.md">
-  	<img src="https://img.shields.io/badge/desafios-OK-blueviolet"></img>
-  </a>
-  <a aria-label="Dia 3 de 5" href="https://rocketseat.com.br/week-10/aulas#3">
-    <img src="https://img.shields.io/badge/Dia-3-green"></img>
+  <a aria-label="Dia 3 de 5" href="#">
+    <img src="https://img.shields.io/badge/Dias-5-green"></img>
   </a>
 </p>
 
 ## Instalação
-Configure o MongoDB e atualize a string de conexão com seu `User:Senha` no arquivo `index.js`.  
+Configure o MongoDB e atualize a string de conexão com seu `User:Senha` no arquivo `index.js` dentro da pasta `backend/serc`.  
 Para instalar as dependências e executar o Servidor (modo desenvolvimento), clone o projeto em seu computador e em seguida execute:
 ```bash
 cd Backend
@@ -31,21 +28,9 @@ cd web
 yarn install
 yarn start
 ```
-Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido até agora (Dia 3 de 5).
+Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido.
 
-## Backend
-Veja em [Backend/README.md](./Backend) para informações sobre o Backend e arquitetura.
-
-## Frontend
-Veja em [web/README.md](./web) para informações sobre o Frontend e os padrões. O Frontend desenvolvido no Dia 3 (com o [desafio](DESAFIOS.md) feito) ficou assim:
-
-<img align="center" src="./static/frontend.gif"></img>
-
-## Imnsonia 
-Para testar a API do DevRadar, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique na Workspace → `Import/Export` →  
-`Import Data` → `From File` → e selecione o arquivo ` 	Insomnia_export.json` deste repositório. Assim que terminar, o resultado ficará assim:  
-
-<img align="center" src="./static/insomnia.png"></img>
+<img align="center" src="./frontend.pmg"></img>
 
 ## Licença
 
