@@ -30,7 +30,7 @@ yarn start
 ```
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido.
 
-<img align="center" src="./frontend.pmg"></img>
+<img align="center" src="./frontend.png"></img>
 
 ## Licença
 
